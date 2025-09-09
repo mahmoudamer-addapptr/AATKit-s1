@@ -39,6 +39,6 @@ let package = Package(
             url:
                 "https://ios-sdk.aatkit.com/AATKit_SPM/\(version).zip",
             checksum: "f2b0bb9e148a2be495a4461dd601408635d36bfe257df4053214596163379663"
-        ),
-    ],
+        )
+    ]
 )
