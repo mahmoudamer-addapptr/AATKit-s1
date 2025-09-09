@@ -14,10 +14,15 @@ let package = Package(
     targets: [
         // AATKit target
         .target(name:"AATKit-Core",
-                dependencies: ["AATKit"],
+                dependencies: [
+                    .target(name: "AATKit"),
+                ],
                 path: "./Sources/AATKit"),
         .target(name:"AATKit-FeedAd",
-                dependencies: ["TappxFramework", "AATFeedAdAdapter"],
+                dependencies: [
+                    .target(name: "TappxFramework"),
+                    .target(name: "AATFeedAdAdapter")
+                ],
                 path: "./Sources/FeedAdSources"),
         // Mark: Binary Targets
         // AATKit
