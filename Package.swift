@@ -9,7 +9,7 @@ let package = Package(
     platforms: [.iOS(.v12)],
     products: [
         .library(name: "AATKit-Core", targets: ["AATKit-Core"]),
-        .library(name: "AATKit-FeedAd", targets: ["AATKit-FeedAd"]),
+        .library(name: "AATKit-Tappx", targets: ["AATKit-Tappx"]),
     ],
     targets: [
         // AATKit target
@@ -18,12 +18,12 @@ let package = Package(
                     .target(name: "AATKit"),
                 ],
                 path: "./Sources/AATKit"),
-        .target(name:"AATKit-FeedAd",
+        .target(name:"AATKit-Tappx",
                 dependencies: [
                     .target(name: "TappxFramework"),
-                    .target(name: "AATFeedAdAdapter")
+                    .target(name: "AATTappxAdapter")
                 ],
-                path: "./Sources/FeedAdSources"),
+                path: "./Sources/TappxSources"),
         // Mark: Binary Targets
         // AATKit
         .binaryTarget(
@@ -40,7 +40,7 @@ let package = Package(
             checksum: "f2b0bb9e148a2be495a4461dd601408635d36bfe257df4053214596163379663"
         ),
         .binaryTarget(
-            name: "AATFeedAdAdapter",
+            name: "AATTappxAdapter",
             url:
                 "https://ios-sdk.aatkit.com/AATKit_SPM/\(version).zip",
             checksum: "f2b0bb9e148a2be495a4461dd601408635d36bfe257df4053214596163379663"
