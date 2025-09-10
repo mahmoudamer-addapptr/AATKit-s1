@@ -30,20 +30,20 @@ let package = Package(
             name: "AATKit",
             url:
                 "https://ios-sdk.aatkit.com/AATKit_SPM/\(version).zip",
-            checksum: "f2b0bb9e148a2be495a4461dd601408635d36bfe257df4053214596163379663"
+            checksum: "b3a4b4ddd654b7d226660d0a91f7d6460f37c29a15ae3f22eb448f7de6ce4d30"
         ),
         // FeedAd
         .binaryTarget(
             name: "TappxFramework",
             url:
                 "https://ios-sdk.aatkit.com/AATKit_SPM/\(version).zip",
-            checksum: "f2b0bb9e148a2be495a4461dd601408635d36bfe257df4053214596163379663"
+            checksum: "b3a4b4ddd654b7d226660d0a91f7d6460f37c29a15ae3f22eb448f7de6ce4d30"
         ),
         .binaryTarget(
             name: "AATTappxAdapter",
             url:
                 "https://ios-sdk.aatkit.com/AATKit_SPM/\(version).zip",
-            checksum: "f2b0bb9e148a2be495a4461dd601408635d36bfe257df4053214596163379663"
+            checksum: "b3a4b4ddd654b7d226660d0a91f7d6460f37c29a15ae3f22eb448f7de6ce4d30"
         )
     ]
 )
