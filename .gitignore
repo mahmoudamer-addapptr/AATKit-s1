@@ -4,3 +4,11 @@
 /.swiftpm/xcode/package.xcworkspace/xcuserdata
 /.swiftpm/xcode/package.xcworkspace/xcuserdata/mahmoudamer.xcuserdatad
 .swiftpm/xcode/package.xcworkspace/xcuserdata/mahmoudamer.xcuserdatad/UserInterfaceState.xcuserstate
+.DS_Store
+/.build
+/Packages
+/*.xcodeproj
+xcuserdata/
+Package.resolved
+DerivedData/
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
