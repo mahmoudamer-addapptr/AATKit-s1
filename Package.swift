@@ -21,7 +21,8 @@ let package = Package(
         .target(name:"AATKit-Tappx",
                 dependencies: [
                     .target(name: "TappxFramework"),
-                    .target(name: "AATTappxAdapter")
+                    .target(name: "AATTappxAdapter"),
+                    .target(name: "OMSDK_Tappx")
                 ],
                 path: "./Sources/TappxSources"),
         // Mark: Binary Targets
