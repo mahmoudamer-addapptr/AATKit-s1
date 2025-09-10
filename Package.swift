@@ -32,12 +32,18 @@ let package = Package(
                 "https://ios-sdk.aatkit.com/AATKit_SPM/\(version)/AATKit.zip",
             checksum: "da47fe8cbb70c13972aa7d49833b1120742a6542656436164cf8a334170d6ecb"
         ),
-        // FeedAd
+        // Tappx
         .binaryTarget(
             name: "TappxFramework",
             url:
                 "https://ios-sdk.aatkit.com/AATKit_SPM/\(version)/TappxFramework.zip",
             checksum: "917fa7e5df22c86da30e861966e2c43c83809642d4953091c9af53179965d266"
+        ),
+        .binaryTarget(
+            name: "OMSDK_Tappx",
+            url:
+                "https://ios-sdk.aatkit.com/AATKit_SPM/\(version)/OMSDK_Tappx.zip",
+            checksum: "fdcc1d4d74e3789f814d38bb1455112676ee6ad1ec1b870031d39875d40ac32d"
         ),
         .binaryTarget(
             name: "AATTappxAdapter",
